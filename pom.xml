@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>sproject</artifactId>
+	<artifactId>soul-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sproject</name>
+	<name>soul-project</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -91,6 +91,7 @@
 		    <version>3.0.3</version>
 		    <scope>test</scope>
 		</dependency>
+				
 				
 		<!-- Mybatis 테스트용 (선택 사항) -->
 		<dependency>
