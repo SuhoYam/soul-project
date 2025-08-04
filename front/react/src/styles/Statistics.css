@@ -1,0 +1,126 @@
+.statistics-title {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(98, 104, 136);
+    font-weight: bold; /* 굵게 */
+    margin: 10px 10px 10px 10px;
+}
+
+.statistics-hr {
+    width: 96%;
+    height: 5px; /* 굵기 설정 */
+    background-color: rgb(220, 221, 213); /* 색상 설정 */
+    border: none; /* 기본 테두리 제거 */
+}
+
+.statistics-hr-vertical {
+    width: 2px;
+    height: 96%;
+    background-color: rgb(167, 180, 65); /* 색상 설정 */
+    border: none; /* 기본 테두리 제거 */
+
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: '300px';
+    gap: 40px; /* 요소 간 간격 */
+    
+}
+
+.statistics-float-box {
+    
+    float: left; /* 왼쪽 정렬 */
+    width: 45%;
+    height: 550px; /* 높이 설정 */   
+    
+}
+
+.statistics-float-clear {
+    clear: both; /* float 해제 */
+}
+
+.search-title {
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(98, 104, 136);
+    font-weight: bold; /* 굵게 */
+}
+
+.search-condition {
+    margin: 0 5px; /* 좌우 여백 */
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(98, 104, 136);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ccc; /* 테두리 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    background-color: #f9f9f9; /* 배경색 */
+}
+
+.statistics-table-container {
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    width: 100%; /* 전체 너비 사용 */
+    height: 100%; /* 전체 높이 사용 */    
+}
+.statistics-table {
+
+    margin-top: 10px;
+    width: 50%;
+    border-collapse: collapse; /* 테두리 겹침 제거 */
+    background-color: #ecf3e3;
+    border-radius: 10px;
+    font-size: 15px; /* 폰트 크기 설정 */
+}
+
+.statistics-table-border {
+    
+    width: 100%;
+    border-collapse: collapse; /* 테두리 겹침 제거 */
+
+    border-radius: 10px;
+    font-size: 15px; /* 폰트 크기 설정 */
+
+    border: 1px solid #ccc; /* 테두리 */
+}
+
+.statistics-table-border th{
+    background-color: rgb(224, 222, 210);
+    border-bottom:1px solid rgb(188, 190, 171)  ;
+}
+
+.statistics-table-border tr:nth-child(2n){
+    /* background-color: rgb(250, 248, 248); */
+    background-color: rgb(221, 221, 218);
+}
+.statistics-table-border tr:nth-child(2n+1){
+    background-color: rgb(235, 232, 232);
+}
+
+.statistics-tab {
+    display: flex;
+    cursor: pointer;
+
+    color: rgb(22, 99, 51);
+}
+
+.statistics-background {
+    background: linear-gradient(to top, rgb(221, 243, 232) 0%, rgba(197, 240, 206, 0) 40%, rgba(231, 245, 228, 0) 70%);
+}
+  
+
+.statistics-slick-prev, .statistics-slick-next {
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
